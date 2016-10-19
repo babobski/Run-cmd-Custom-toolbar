@@ -1,0 +1,17 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "Run cmd - project root", 
+  "language": "JavaScript", 
+  "trigger": "trigger_postopen", 
+  "trigger_enabled": false, 
+  "value": [
+    "setTimeout(function(){", 
+    "\tko.run.command('cmd /K \"cd ' + ko.interpolate.interpolateString('%i'), {});", 
+    "}, 30);"
+  ], 
+  "version": "1.0.12", 
+  "rank": 100, 
+  "async": false, 
+  "type": "macro", 
+  "icon": "koicon://ko-svg/chrome/icomoon/skin/console.svg"
+}
