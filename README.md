@@ -1,4 +1,4 @@
-# Run cmd - Custom-toolbar
+# Windows Run cmd - Custom-toolbar
 Komodo userscripts for running windows cmd inside komodo
 
 ## Screenshots
