@@ -5,6 +5,7 @@
   "trigger": "trigger_postopen", 
   "trigger_enabled": false, 
   "value": [
+	"ko.run.output.kill(); // Kill any running command", 
     "setTimeout(function(){", 
     "\tko.run.command('cmd /K \"cd ' + ko.interpolate.interpolateString('%i'), {});", 
     "}, 30);"
